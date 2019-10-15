@@ -1,0 +1,30 @@
+{
+  "name": "shoping-list-mern",
+  "version": "1.0.0",
+  "description": "MERN shopping list app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arupgorai/shoping-list-mern.git"
+  },
+  "author": "Arup Gorai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arupgorai/shoping-list-mern/issues"
+  },
+  "homepage": "https://github.com/arupgorai/shoping-list-mern#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
