@@ -1,0 +1,17 @@
+.remove-btn {
+  margin-right: 0.5rem;
+}
+.item {
+  opacity: 0;
+}
+.item-active {
+  opacity: 1;
+  transition: opacity 5000ms ease-in;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 5000ms ease-in;
+}
