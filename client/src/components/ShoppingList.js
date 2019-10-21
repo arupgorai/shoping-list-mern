@@ -1,5 +1,4 @@
 import React from 'react';
-import toastr from 'toastr';
 import {
     Container,
     ListGroup,
@@ -16,7 +15,6 @@ import {
     getItems,
     deleteItem,
 } from '../actions/itemActions';
-import 'toastr/build/toastr.min.css';
 
 class ShoppingList extends React.Component {
 
@@ -26,7 +24,6 @@ class ShoppingList extends React.Component {
 
     onDeleteClick = id => {
         this.props.deleteItem(id);
-        toastr.success('Have fun storming the castle!', 'Miracle Max Says')
     };
 
     render () {
